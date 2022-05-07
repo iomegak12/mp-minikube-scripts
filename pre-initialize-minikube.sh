@@ -16,5 +16,4 @@ wget https://storage.googleapis.com/minikube/releases/latest/minikube_latest_$( 
 
 sudo apt-get install --yes --no-install-recommends -o Debug::pkgProblemResolver=yes ./minikube_latest_$( dpkg-architecture -q DEB_HOST_ARCH ).deb
 
-minikube start --driver=docker
-
+exit
